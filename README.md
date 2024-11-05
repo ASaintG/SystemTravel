@@ -63,16 +63,21 @@ El proceso actual de transporte de colaboradores se lleva a cabo manualmente, lo
    ```bash
    git clone https://github.com/ASaintG/SystemTravel/tree/main/Backend/systemTravelBackend
 2. Restaura las dependencias:
-   ```dotnet restore
+   ```
+   dotnet restore
 3. Ejecuta la aplicación:
-   ```dotnet run
+   ```
+   dotnet run
 ### Frontend (React)
 1. Clona el repositorio del frontend:
-   ```https:https://github.com/ASaintG/SystemTravel/tree/main/Frontend/systemTravel
+   ```
+   https:https://github.com/ASaintG/SystemTravel/tree/main/Frontend/systemTravel
 2. Instala las dependencias:
-   ```npm install
+   ```
+   npm install
 3. Inicia la aplicación:
-   ```npm start
+   ```
+   npm start
 ### Uso
 - Inicia el backend para tener la API disponible.
 - Inicia el frontend y accede a la interfaz de usuario.
