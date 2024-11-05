@@ -1,12 +1,54 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\Naraly\\Documents\\SystemTravel\\Backend\\systemTravelBackend\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A10BEAA9-0033-492E-B4BB-32A5D357E4A1}|systemTravelBackend\\systemTravelBackend.csproj|c:\\users\\naraly\\documents\\systemtravel\\backend\\systemtravelbackend\\systemtravelbackend\\dtos\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A10BEAA9-0033-492E-B4BB-32A5D357E4A1}|systemTravelBackend\\systemTravelBackend.csproj|solutionrelative:systemtravelbackend\\dtos\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A10BEAA9-0033-492E-B4BB-32A5D357E4A1}|systemTravelBackend\\systemTravelBackend.csproj|c:\\users\\naraly\\documents\\systemtravel\\backend\\systemtravelbackend\\systemtravelbackend\\dtos\\transportistadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A10BEAA9-0033-492E-B4BB-32A5D357E4A1}|systemTravelBackend\\systemTravelBackend.csproj|solutionrelative:systemtravelbackend\\dtos\\transportistadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "LoginDto.cs",
+              "DocumentMoniker": "C:\\Users\\Naraly\\Documents\\SystemTravel\\Backend\\systemTravelBackend\\systemTravelBackend\\Dtos\\LoginDto.cs",
+              "RelativeDocumentMoniker": "systemTravelBackend\\Dtos\\LoginDto.cs",
+              "ToolTip": "C:\\Users\\Naraly\\Documents\\SystemTravel\\Backend\\systemTravelBackend\\systemTravelBackend\\Dtos\\LoginDto.cs",
+              "RelativeToolTip": "systemTravelBackend\\Dtos\\LoginDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-05T21:16:57.395Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "TransportistaDto.cs",
+              "DocumentMoniker": "C:\\Users\\Naraly\\Documents\\SystemTravel\\Backend\\systemTravelBackend\\systemTravelBackend\\Dtos\\TransportistaDto.cs",
+              "RelativeDocumentMoniker": "systemTravelBackend\\Dtos\\TransportistaDto.cs",
+              "ToolTip": "C:\\Users\\Naraly\\Documents\\SystemTravel\\Backend\\systemTravelBackend\\systemTravelBackend\\Dtos\\TransportistaDto.cs",
+              "RelativeToolTip": "systemTravelBackend\\Dtos\\TransportistaDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-05T21:16:53.647Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("systemTravelBackend")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6957b246cbc3839e5927263c2e90b852bf6300e0")]
 [assembly: System.Reflection.AssemblyProductAttribute("systemTravelBackend")]
 [assembly: System.Reflection.AssemblyTitleAttribute("systemTravelBackend")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

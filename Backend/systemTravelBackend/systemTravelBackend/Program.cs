@@ -1,3 +1,7 @@
+using Microsoft.EntityFrameworkCore;
+using systemTravelBackend.CasosDeUso;
+using systemTravelBackend.Repository;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
@@ -6,6 +10,19 @@ builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+builder.Services.AddRouting(routing => routing.LowercaseUrls = true);
+
+builder.Services.AddDbContext<ColaboradorRepository>(mysqlBuilder =>
+{
+    mysqlBuilder.UseMySQL(builder.Configuration.GetConnectionString("Connection1"));
+});
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy("AllowSpecificOrigin",
+        builder => builder.WithOrigins("http://localhost:5173")
+                          .AllowAnyHeader()
+                          .AllowAnyMethod());
+});
 
 var app = builder.Build();
 
@@ -17,7 +34,7 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection();
-
+app.UseCors("AllowSpecificOrigin");
 app.UseAuthorization();
 
 app.MapControllers();
